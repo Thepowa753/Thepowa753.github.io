@@ -1,2 +1,8 @@
 # Thepowa753.github.io
-- ToDo (add credit to vecteezy.com for BG)
+- Credits. Thanks to :
+- - vecteezy.com for BG
+- - GitHub for logo
+- - Instagram(meta) for logo
+- - Linkedin for logo
+- - Steam(valve) for logo
+- - Wikipedia for some logos
