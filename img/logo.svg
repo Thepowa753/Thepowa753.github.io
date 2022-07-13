@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2">
+    <rect
+       x="308.14856"
+       y="14.396149"
+       width="287.68638"
+       height="541.24072"
+       id="rect32817" />
+    <rect
+       x="2.8198074"
+       y="2.0550206"
+       width="296.85832"
+       height="492.19257"
+       id="rect6633" />
+  </defs>
+  <g
+     id="layer1">
+    <text
+       xml:space="preserve"
+       id="text6631"
+       style="font-style:normal;font-weight:normal;font-size:400px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect6633);fill:#32c8ff;fill-opacity:1;stroke:none"
+       transform="matrix(-1.2376959,0,0,1.7558205,308.07993,-113.00351)"><tspan
+         x="2.8203125"
+         y="355.96094"
+         id="tspan41372">B</tspan></text>
+    <text
+       xml:space="preserve"
+       id="text32815"
+       style="font-style:normal;font-weight:normal;font-size:400px;line-height:1.25;font-family:sans-serif;white-space:pre;shape-inside:url(#rect32817);fill:#32c8ff;fill-opacity:1;stroke:none"
+       transform="matrix(1.5276457,0,0,1.7558205,-274.71366,-134.67349)"><tspan
+         x="308.14844"
+         y="368.30273"
+         id="tspan41374">F</tspan></text>
+    <rect
+       style="fill:#000000;fill-opacity:0"
+       id="rect40045"
+       width="63.078403"
+       height="61.581844"
+       x="386.31085"
+       y="99.136177" />
+    <rect
+       style="fill:#32c8ff;fill-opacity:1"
+       id="rect40047"
+       width="50"
+       height="512"
+       x="231"
+       y="0" />
+  </g>
+</svg>
