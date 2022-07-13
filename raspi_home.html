@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="css/eink.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+	</head>
+	<body>
+		<h3>This is a huge project. It took me about 5 months to complete it!</h3>
+		<p>It consists of:<br><span> • </span>A main server written in 
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" class="leng_icon" alt="Python"/>
+			hosted on a raspberry pi4 that manages:<br>
+			<span class="dot_space"> ☞ </span> Google calendar api (completely rewrote from scratch) to get calendars and also reminder from google assistant.<br>
+			<span class="dot_space"> ☞ </span> OpenWeather api to get local forecast.<br>
+			<span class="dot_space"> ☞ </span> <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" class="leng_icon" alt="Telegram"/> bot to handle commands when i'm not home (such as air contidioner commands).<br>
+			<span class="dot_space"> ☞ </span> <img src="https://hackaday.com/wp-content/uploads/2016/05/mqtt_dash.png" class="leng_icon" alt="MQTT"/> to comunicate with all my local smart device.<br>
+			<span class="dot_space"> ☞ </span> A self written image renderer to display all the information on the eink display.<br>
+			<span class="dot_space"> ☞ </span> An analyzer of my whole network (speed, ping, connected devices, etc).<br>
+			<span class="dot_space"> ☞ </span> Statistics for the cinema part (Films and Series counter and occupated space on HDD)<br>
+			<span class="dot_space"> ☞ </span> Google news api to get latest news based on my intrests.<br>
+			<span class="dot_space"> ☞ </span> Statistics about my local backup service (latest backup date and space left).<br>
+			<span class="dot_space"> ☞ </span> A telegram forwarder from IFTTT to this bot (so i can hook also google assistant!).<br><br>
+		<span> • </span> An ESP8266 with an ir led and a temperature+humidity sensor.<br>
+		<span> • </span> Another raspberry pi 3b+ running <img src="https://retropie.org.uk/wp-content/uploads/2016/04/RetroPie_Logo.png"  class="leng_icon" alt="Retropie"> 
+		that sends some telemetry to the main server.<br>
+		<span> • </span> Radarr, Sonarr, Jellyfin, Jackett and transmission are running on the main raspberry hooked to a 1TB HDD.<br>
+		</p>
+		<br>
+		<p> When i'm away and i want to get a summary about my home status i can just ask a screenshot of the eink display via <img src="https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg" class="leng_icon" alt="Telegram"/></p>
+		<image src="img/eink_tg.jpeg" alt="Telegram screenshot asking a screenshot of the eink display" style="width: 20%;"><br><br>
+		<p> And also when i'm getting back home from work, i can just text to my bot telling him that I'm hot (or just tell to google assistant 😉)</p>
+		<image src="img/clima_telegram.jpeg" alt="Telegram asking to turn on and off the ac" style="width: 20%;"><br><br>
+
+		<p>
+			This is a project that I've done for my own personal use. It's not meant to be used by other people.
+		</p>
+		<footer class="social_icons">
+			<a href="https://github.com/Thepowa753" target="_blank"><img src="https://github.com/fluidicon.png" alt="GitHub" class="social_icon"></a>
+			<a href="https://www.instagram.com/fede.breg/" target="_blank"><img src="img/insta_logo.svg" alt="Instagram" class="social_icon"></a>
+			<a href="https://www.linkedin.com/in/federicobregant/" target="_blank"><img src="img/linkedin_logo.jpg" alt="LinkedIn" class="social_icon"></a>
+			<a href="https://steamcommunity.com/id/Thepowa753-" target="_blank"><img src="https://steamcommunity.com/favicon.ico" alt="Steam" class="social_icon"></a>
+		</footer>
+	</body>
+</html>

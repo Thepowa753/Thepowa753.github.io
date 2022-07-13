@@ -7,3 +7,4 @@ Credits. Thanks to :
 - Linkedin for logo
 - Steam(valve) for logo
 - Wikipedia for some logos
+- hackaday for some logos
