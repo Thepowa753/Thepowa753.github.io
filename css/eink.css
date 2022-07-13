@@ -1,0 +1,14 @@
+.social_icon{
+	width:60px;
+	height:60px;
+	float: right;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: block;
+
+}
+footer{
+	position: absolute;
+	bottom: 15px;
+	width: 100%;
+}

@@ -2,6 +2,7 @@ var toggled = false;
 function change_page(page){
 	$("#pager").slideUp(400);
 	$("#pager").load(page+".html");
+	$("#pager").attr('src',page+".html");
 	console.log(page);
 	$("#pager").slideDown(800);
 }
