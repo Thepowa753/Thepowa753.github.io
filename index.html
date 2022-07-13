@@ -11,11 +11,14 @@
 		<script src="js/main.js"></script> 
 	</head>
 	<body>
+		<video id="bgVideo" preload="true" autoplay loop muted>
+			<source src="https://static.vecteezy.com/system/protected/files/002/017/939/vecteezy_cosmic-galaxy-with-nebula-and-bright-shining-stars-illustration-for-backgrounds_2017939.mov"/> 
+		</video>
 		<nav>
-			<div class="w3-bar w3-black" style="height: 40px;">
-				<a onclick="change_page('home');" class="w3-bar-item w3-button">Home</a>
-				<a onclick="change_page('about');" class="w3-bar-item w3-button">About</a>
-				<a onclick="change_page('progetto');" class="w3-bar-item w3-button project">Projects</a>
+			<div class="w3-bar w3-black w3-animate-top" style="height: 40px;">
+				<a onclick="change_page('home');" class="w3-bar-item w3-cell-middle w3-button">Home</a>
+				<a onclick="change_page('about');" class="w3-bar-item w3-cell-middle w3-button">About</a>
+				<a onclick="change_page('progetto');" class="w3-bar-item w3-cell-middle w3-button project">Projects</a>
 			</div>
 		</nav>
 		<iframe id="pager" src="home.html" class="main_frame">
