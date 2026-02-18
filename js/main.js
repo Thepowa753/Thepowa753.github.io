@@ -5,6 +5,9 @@ function change_page(page){
 	$("#pager").attr('src',page+".html");
 	console.log(page);
 	$("#pager").slideDown(800);
+	// Update selected state for navigation items
+	$(".project").removeClass("selected");
+	$("a[onclick=\"change_page('"+page+"');\"]").addClass("selected");
 }
 $("document").ready(function(){
 	$("#dropper").click(function(){

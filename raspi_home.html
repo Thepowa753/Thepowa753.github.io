@@ -5,6 +5,7 @@
 	</head>
 	<body>
 		<h3>This is a huge project. It took me about 5 months to complete it!</h3>
+		<p>Everything is displayed on an e-ink dashboard hung on the wall, showing what you can see in the virtual preview of the first screenshot below. This provides a clean, always-on display for monitoring my home's status at a glance.</p>
 		<p>It consists of:<br><span> • </span>A main server written in 
 			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" class="leng_icon" alt="Python"/>
 			hosted on a raspberry pi4 that manages:<br>
@@ -14,10 +15,11 @@
 			<span class="dot_space"> ☞ </span> <img src="https://hackaday.com/wp-content/uploads/2016/05/mqtt_dash.png" class="leng_icon" alt="MQTT"/> to comunicate with all my local smart device.<br>
 			<span class="dot_space"> ☞ </span> A self written image renderer to display all the information on the eink display.<br>
 			<span class="dot_space"> ☞ </span> An analyzer of my whole network (speed, ping, connected devices, etc).<br>
-			<span class="dot_space"> ☞ </span> Statistics for the cinema part (Films and Series counter and occupated space on HDD)<br>
-			<span class="dot_space"> ☞ </span> Google news api to get latest news based on my intrests.<br>
+			<span class="dot_space"> ☞ </span> Statistics for the cinema part (Films and Series counter and occupied space on HDD)<br>
+			<span class="dot_space"> ☞ </span> Google news api to get latest news based on my interests.<br>
 			<span class="dot_space"> ☞ </span> Statistics about my local backup service (latest backup date and space left).<br>
-			<span class="dot_space"> ☞ </span> A telegram forwarder from IFTTT to this bot (so i can hook also google assistant!).<br><br>
+			<span class="dot_space"> ☞ </span> A telegram forwarder from IFTTT to this bot (so i can hook also google assistant!).<br>
+			<span class="dot_space"> ☞ </span> <strong>Smart power management system:</strong> A prevention system that monitors power consumption in real-time using a smart meter and controls about 15 smart plugs. When approaching Italy's typical 3kW limit, the system uses a priority-based algorithm to calculate how much power needs to be reduced and automatically turns off lower-priority devices to prevent the circuit breaker from tripping.<br><br>
 		<span> • </span> An ESP8266 with an ir led and a temperature+humidity sensor.<br>
 		<span> • </span> Another raspberry pi 3b+ running <img src="https://retropie.org.uk/wp-content/uploads/2016/04/RetroPie_Logo.png"  class="leng_icon" alt="Retropie"> 
 		that sends some telemetry to the main server.<br>
