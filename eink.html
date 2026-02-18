@@ -6,6 +6,71 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</head>
 	<body>
+		<h1>🖥️ E-Ink Display Integration</h1>
+		
+		<p>A sophisticated e-ink display system that brings essential information into view with minimal power consumption and maximum readability.</p>
+		
+		<h3>🎯 Project Overview</h3>
+		<p>This project integrates a large e-ink display (e-paper) with my Raspberry Pi home automation system to create an always-visible information dashboard. Unlike traditional displays, e-ink technology provides excellent readability in any lighting condition while consuming almost no power when static.</p>
+		
+		<h3>📺 Display Specifications</h3>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>📐 <strong>Size:</strong> 7.5" diagonal e-ink display</li>
+			<li>🎨 <strong>Resolution:</strong> 800x480 pixels with 16 grayscale levels</li>
+			<li>🔄 <strong>Refresh Rate:</strong> ~15 seconds full refresh, partial updates supported</li>
+			<li>⚡ <strong>Power:</strong> Ultra-low power - only draws current during refresh</li>
+			<li>🌡️ <strong>Operating Range:</strong> 0-50°C, perfect for indoor use</li>
+		</ul>
+		
+		<h3>📊 Displayed Information</h3>
+		<p>The display shows a comprehensive dashboard including:</p>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>📅 <strong>Calendar Events:</strong> Today's schedule and upcoming appointments from Google Calendar</li>
+			<li>⏰ <strong>Reminders:</strong> Tasks and notifications from Google Assistant</li>
+			<li>🌤️ <strong>Weather Forecast:</strong> Current conditions and 5-day forecast from OpenWeather</li>
+			<li>📰 <strong>News Headlines:</strong> Latest news based on personalized interests</li>
+			<li>🏠 <strong>Smart Home Status:</strong> Temperature, humidity, and device states</li>
+			<li>🌐 <strong>Network Stats:</strong> Internet speed and connected devices</li>
+			<li>💾 <strong>Storage Info:</strong> Available space on media server</li>
+			<li>🎬 <strong>Media Stats:</strong> Movie and TV show library statistics</li>
+		</ul>
+		
+		<h3>💻 Technical Implementation</h3>
+		<p>Built with 
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" class="leng_icon" alt="Python"/> Python using custom rendering engine for the e-ink display.
+		</p>
+		
+		<h4>Key Technologies:</h4>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>🖼️ <strong>PIL (Pillow):</strong> Image creation and manipulation</li>
+			<li>🎨 <strong>Custom Renderer:</strong> Self-written layout engine optimized for e-ink</li>
+			<li>🔄 <strong>SPI Interface:</strong> Fast communication with the display</li>
+			<li>📡 <strong>API Integration:</strong> Google Calendar, OpenWeather, News APIs</li>
+			<li>⏰ <strong>Scheduled Updates:</strong> Automatic refresh at optimal intervals</li>
+			<li>🎭 <strong>Dithering Algorithms:</strong> Convert color images to grayscale optimally</li>
+		</ul>
+		
+		<h3>🌟 Smart Features</h3>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>📱 <strong>Remote Screenshot:</strong> Request current display via Telegram bot</li>
+			<li>🔄 <strong>Adaptive Refresh:</strong> Smart update scheduling to minimize screen burn</li>
+			<li>🎨 <strong>Layout Customization:</strong> Multiple display templates</li>
+			<li>⚡ <strong>Priority Updates:</strong> Immediate refresh for urgent information</li>
+			<li>💤 <strong>Sleep Mode:</strong> Automatic dimming during nighttime</li>
+		</ul>
+		
+		<h3>✨ Why E-Ink?</h3>
+		<p>E-ink displays offer unique advantages:</p>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>👁️ <strong>Superior Readability:</strong> Paper-like appearance, easy on the eyes</li>
+			<li>☀️ <strong>No Glare:</strong> Perfectly readable in direct sunlight</li>
+			<li>⚡ <strong>Zero Power Retention:</strong> Image persists without power</li>
+			<li>🌙 <strong>No Light Pollution:</strong> Doesn't emit light in dark rooms</li>
+			<li>🔋 <strong>Energy Efficient:</strong> Minimal power consumption</li>
+		</ul>
+		
+		<p><em>The perfect always-on information display that respects both your eyes and your electricity bill!</em></p>
+		
 		<footer class="social_icons">
 			<a href="https://github.com/Thepowa753" target="_blank"><img src="https://github.com/fluidicon.png" alt="GitHub" class="social_icon"></a>
 			<a href="https://www.instagram.com/fede.breg/" target="_blank"><img src="img/insta_logo.svg" alt="Instagram" class="social_icon"></a>

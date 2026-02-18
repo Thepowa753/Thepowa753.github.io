@@ -6,9 +6,63 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 	</head>
 	<body>
-		<p>
-			This is a project that I've done for my own personal use. It's not meant to be used by other people.
+		<h1>📊 Raspberry Pi Hardware Info Dashboard</h1>
+		
+		<p>A real-time hardware monitoring solution for Raspberry Pi, providing comprehensive system insights through an elegant web interface.</p>
+		
+		<h3>🎯 Project Purpose</h3>
+		<p>This project was created to monitor the health and performance of my Raspberry Pi devices, which are running critical home automation services 24/7. Having real-time visibility into system resources helps prevent issues before they occur.</p>
+		
+		<h3>📈 Monitored Metrics</h3>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>🌡️ <strong>CPU Temperature:</strong> Real-time temperature monitoring with thermal throttling alerts</li>
+			<li>💻 <strong>CPU Usage:</strong> Per-core utilization and overall system load</li>
+			<li>🧠 <strong>Memory Usage:</strong> RAM consumption, swap usage, and available memory</li>
+			<li>💾 <strong>Disk Space:</strong> Storage utilization across all mounted partitions</li>
+			<li>🌐 <strong>Network Activity:</strong> Bandwidth usage, packet statistics, and connection info</li>
+			<li>⚡ <strong>Power Status:</strong> Under-voltage detection and power supply health</li>
+			<li>🔄 <strong>Uptime:</strong> System uptime and boot time tracking</li>
+			<li>⚙️ <strong>Running Processes:</strong> Top processes by CPU and memory usage</li>
+		</ul>
+		
+		<h3>💻 Technical Stack</h3>
+		<p>Built using:
+			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" class="leng_icon" alt="Python"/> Python (Flask framework) for the backend, with 
+			<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" class="leng_icon" alt="JavaScript"/> JavaScript and Chart.js for interactive visualizations.
 		</p>
+		
+		<h4>Key Components:</h4>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>🔧 <strong>psutil Library:</strong> Cross-platform library for system monitoring</li>
+			<li>🌡️ <strong>vcgencmd:</strong> Raspberry Pi-specific hardware information tool</li>
+			<li>🎨 <strong>Bootstrap:</strong> Responsive UI framework</li>
+			<li>📊 <strong>Chart.js:</strong> Beautiful real-time charts and graphs</li>
+			<li>⚡ <strong>WebSockets:</strong> Live updates without page refresh</li>
+			<li>🔐 <strong>Basic Auth:</strong> Password protection for remote access</li>
+		</ul>
+		
+		<h3>🌟 Features</h3>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>📱 <strong>Responsive Design:</strong> Works perfectly on mobile and desktop</li>
+			<li>🔔 <strong>Alert System:</strong> Notifications when thresholds are exceeded</li>
+			<li>📊 <strong>Historical Data:</strong> View trends over time with interactive graphs</li>
+			<li>🎨 <strong>Dark/Light Theme:</strong> Customizable appearance</li>
+			<li>⚙️ <strong>System Control:</strong> Restart services and perform system operations</li>
+			<li>📁 <strong>Log Viewer:</strong> Browse system logs directly from the dashboard</li>
+		</ul>
+		
+		<h3>🚀 Use Cases</h3>
+		<p>This dashboard is particularly useful for:</p>
+		<ul style="line-height: 1.8; font-size: 1.1em;">
+			<li>🏠 Home server monitoring</li>
+			<li>🤖 Raspberry Pi automation projects</li>
+			<li>📺 Media server health checks (Plex, Jellyfin)</li>
+			<li>🌐 Network-attached storage (NAS) monitoring</li>
+			<li>🔬 IoT project diagnostics</li>
+		</ul>
+		
+		<p><em>Keep your Raspberry Pi running smoothly with comprehensive, real-time hardware monitoring!</em></p>
+		
 		<footer class="social_icons">
 			<a href="https://github.com/Thepowa753" target="_blank"><img src="https://github.com/fluidicon.png" alt="GitHub" class="social_icon"></a>
 			<a href="https://www.instagram.com/fede.breg/" target="_blank"><img src="img/insta_logo.svg" alt="Instagram" class="social_icon"></a>
