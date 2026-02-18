@@ -1,10 +1,11 @@
 .main_frame{
-  background-color: rgba(50, 50, 50, 0.98);
+  background-color: transparent;
   position:absolute;
   left:0%;
   right:0%;
   width: 100%;
   height: 90%;
+  border: none;
   border-radius: 0px 0px 10px 10px;
 }
 
