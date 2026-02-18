@@ -1,22 +1,129 @@
-.social_icon{
-	width:60px;
-	height:60px;
-	float: right;
-	margin-left: 15px;
-	margin-right: 15px;
-	display: block;
+body {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin: 0;
+	padding: 20px;
+	min-height: 100vh;
+}
 
-}
-footer{
-	position: absolute;
-	bottom: 15px;
-	width: 100%;
-}
-#introduction{
+#introduction {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 40px 30px;
+	background: linear-gradient(135deg, rgba(15, 32, 75, 0.95) 0%, rgba(40, 60, 120, 0.9) 100%);
+	border-radius: 20px;
+	box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(10px);
+	animation: fadeIn 0.8s ease-in;
 	color: white;
 }
 
-.leng_icon{
-	width:30px;
-	height:30px;
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+#introduction h1 {
+	font-size: 3em;
+	margin: 0 0 10px 0;
+	background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-clip: text;
+	font-weight: 700;
+	text-align: center;
+}
+
+#introduction h3 {
+	font-size: 1.8em;
+	margin: 0 0 30px 0;
+	color: #a0aec0;
+	text-align: center;
+	font-weight: 400;
+}
+
+#introduction h4 {
+	font-size: 1.6em;
+	margin: 30px 0 15px 0;
+	color: #cbd5e0;
+	border-left: 4px solid #667eea;
+	padding-left: 15px;
+	font-weight: 600;
+}
+
+#introduction p {
+	font-size: 1.1em;
+	line-height: 1.8;
+	color: #e2e8f0;
+	margin: 15px 0;
+}
+
+.leng_icon {
+	width: 30px;
+	height: 30px;
+	vertical-align: middle;
+	margin: 0 5px;
+	transition: transform 0.3s ease;
+	display: inline-block;
+}
+
+.leng_icon:hover {
+	transform: scale(1.2) rotate(5deg);
+}
+
+footer {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display: flex;
+	gap: 15px;
+	background: rgba(15, 32, 75, 0.8);
+	padding: 15px;
+	border-radius: 50px;
+	backdrop-filter: blur(10px);
+	box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.social_icon {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	transition: all 0.3s ease;
+	box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+	background: white;
+	padding: 5px;
+}
+
+.social_icon:hover {
+	transform: translateY(-5px) scale(1.1);
+	box-shadow: 0 10px 25px rgba(102, 126, 234, 0.5);
+}
+
+@media (max-width: 768px) {
+	#introduction {
+		padding: 25px 20px;
+		margin: 10px;
+	}
+	
+	#introduction h1 {
+		font-size: 2.2em;
+	}
+	
+	#introduction h3 {
+		font-size: 1.4em;
+	}
+	
+	footer {
+		position: relative;
+		bottom: auto;
+		right: auto;
+		justify-content: center;
+		margin: 30px auto;
+		width: fit-content;
+	}
 }
