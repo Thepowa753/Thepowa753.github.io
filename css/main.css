@@ -13,15 +13,15 @@
 	transition: all 0.3s ease;
 }
 
-.project.selected{
+/* Shared selected state styling */
+.selected {
 	background-color: #855 !important;
 	box-shadow: 0 0 15px rgba(136, 85, 85, 0.7);
 }
 
-/* Style for selected home button */
-.centered.selected{
-	background-color: #855 !important;
-	box-shadow: 0 0 15px rgba(136, 85, 85, 0.7);
+.project.selected,
+.centered.selected {
+	/* Inherits from .selected */
 }
 
 body{
